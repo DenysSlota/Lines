@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line</title>
+    <style type="text/css">
+        #canvas { border: 1px solid red; margin: 50px; position: relative; z-index: 5; box-sizing: border-box;}
+
+        #canvastwo { border: 1px solid red; position: absolute; left: 7px; margin: 50px; box-sizing: border-box;} 
+        
+        #button {
+            border: 1px solid red;
+            color: red;
+            padding: 5px;
+            cursor: pointer;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="500" height="500" ></canvas>
+    <canvas id="canvastwo" width="500" height="500" ></canvas>
+    <button id="button">Collapse lines</button>
+    <script src="./index.js"></script>
+</body>
+</html>
